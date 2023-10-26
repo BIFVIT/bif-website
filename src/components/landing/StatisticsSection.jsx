@@ -2,7 +2,7 @@ import React from 'react'
 
 const StatisticsSection = () => {
   return (
-    <section className="bg-gray-900 text-gray-600 body-font">
+    <section className="px-36 bg-gray-900 text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
         <section className="bg-white dark:bg-gray-900">
             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
