@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="src/assets/BIFFavicon.ico" />
+        <link rel="icon" href="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt1.jpg" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
