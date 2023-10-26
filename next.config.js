@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["images.pexels.com"],
+        domains: ["images.pexels.com", "raw.githubusercontent.com"],
         formats: ['image/avif', 'image/webp' ],
         remotePatterns:[
             {
                 protocol: 'https',
-                hostname: 'images.pexels.com',
+                hostname: 'raw.githubusercontent.com',
                 port: '',
                 pathname: '/NotSooShariff/bif-frontend/main/src/assets/*'
             },{

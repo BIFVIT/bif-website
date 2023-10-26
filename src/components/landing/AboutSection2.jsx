@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About2 = () => {
   return (
@@ -24,9 +25,11 @@ const About2 = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
-                    <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt4.jpg"
+                      alt="About Section Image 4"
                       className="w-full rounded-2xl"
                     />
                     <span className="absolute -left-7 -bottom-7 z-[-1]">
@@ -603,16 +606,20 @@ const About2 = () => {
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt5.jpg"
+                      alt="About Section Image 5"
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt6.jpg"
+                      alt="About Section Image 6"
                       className="w-full rounded-2xl"
                     />
                   </div>

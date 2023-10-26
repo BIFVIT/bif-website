@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About1 = () => {
   return (
@@ -10,25 +11,31 @@ const About1 = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt3.jpg"
+                      alt="About Section Image 1"
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt2.jpg"
+                      alt="About Section Image 2"
                       className="w-full rounded-2xl"
                     />
                   </div>
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
-                    <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
-                      alt=""
+                    <Image
+                      width={900}
+                      height={1600}
+                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt1.jpg"
+                      alt="About Section Image 3"
                       className="w-full rounded-2xl"
                     />
                     <span className="absolute -right-7 -bottom-7 z-[-1]">
