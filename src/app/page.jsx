@@ -21,7 +21,7 @@ export default function Home() {
       Sections Required Here:
       - Navbar
       - Hero Section 
-      - About Sections
+      - About Sections (2)
       - Gallery Section 
       - Statistics Section 
       - Reviews Section 

@@ -4,20 +4,20 @@ import Image from "next/image";
 const About2 = () => {
   return (
     <>
-      <section className="bg-gray-900 px-36 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+      <section className="bg-purple-100 dark:bg-gray-900 px-4 lg:px-36 pt-10 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
         <div className="container">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
-                    Who We Are
+                <h2 className="text-gray-800 mb-8 text-3xl font-bold dark:text-white sm:text-4xl">
+                  Who We Are
                 </h2>
                 <p className="mb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                BIF - VIT is the dynamic college club of Becoming I Foundation, a globally recognized 
-                NGO with a profound mission - to ensure free, quality education for all. We are a 
-                vibrant and passionate group of young minds committed to representing this powerful 
-                vision and inviting more youth to join us in making a difference.
+                  BIF - VIT is the dynamic college club of Becoming I Foundation, a globally recognized 
+                  NGO with a profound mission - to ensure free, quality education for all. We are a 
+                  vibrant and passionate group of young minds committed to representing this powerful 
+                  vision and inviting more youth to join us in making a difference.
                 </p>
               </div>
             </div>

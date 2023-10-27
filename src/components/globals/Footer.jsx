@@ -2,15 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer class="px-36 text-gray-400 bg-gray-900 body-font">
+    <footer class="px-4 lg:px-36 text-gray-400 bg-purple-100 dark:bg-gray-900 body-font">
         <div className='h-16'></div>
-        <hr className='gray-700'/>
+        <hr className='dark:gray-700'/>
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-500 dark:text-white">
             <span class="ml-3 text-xl">Becoming I Foundation</span>
             </a>
-            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 BIF-VIT —
-            <a href="https://github.com/BIFVIT" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Developed with 💖 by @BIFVIT</a>
+            <p class="text-sm text-gray-500 dark:text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 BIF-VIT
+            {/* <a href="https://github.com/BIFVIT" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Developed with 💖 by @BIFVIT</a> */}
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a class="text-gray-400">
