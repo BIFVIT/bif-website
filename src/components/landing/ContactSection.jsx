@@ -15,7 +15,7 @@ const ContactSection = () => {
                     </div>
                     <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                     <h2 class="title-font font-semibold text-gray-800 dark:text-white tracking-widest text-xs">EMAIL</h2>
-                    <a class="text-purple-500 leading-relaxed">bif@vit.ac.in</a>
+                    <a class="text-purple-500 dark:text-blue-500 leading-relaxed">bif@vit.ac.in</a>
                     <h2 class="title-font font-semibold text-gray-800 dark:text-white tracking-widest text-xs mt-4">PHONE</h2>
                     <p class="leading-relaxed">+91 <span>97521 50070 </span></p>
                     </div>

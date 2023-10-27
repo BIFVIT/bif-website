@@ -42,7 +42,7 @@ const Reviews = () => {
         </div>
         <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
           {reviews.map((review, index) => (
-            <figure key={index} className={`flex flex-col justify-center items-center p-8 text-center bg-purple-50 border-b border-gray-200 md:p-12 ${index % 2 === 0 ? 'lg:border-r' : ''} dark:bg-gray-800 dark:border-gray-700`}>
+            <figure key={index} className={`flex flex-col justify-center items-center p-8 text-center bg-purple-200 hover:bg-purple-300 border-b border-gray-200 md:p-12 ${index % 2 === 0 ? 'lg:border-r' : ''} dark:bg-gray-800 dark:border-gray-700`}>
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{review.title}</h3>
                 <p className="my-4">{`"${review.review}"`}</p>

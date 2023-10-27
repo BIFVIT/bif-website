@@ -1,11 +1,48 @@
-import React from 'react'
+"use client"
+import React, { useState, useEffect } from 'react';
+
 const Navbar = () => {
-  return (
+//   const { theme, setTheme } = useTheme();
+//   const [mounted, setMounted] = useState(false);
+
+//   useEffect(() => {
+//     setMounted(true);
+//   }, []);
+
+//   // Read user preference for dark mode from localStorage
+//   useEffect(() => {
+//     const storedTheme = localStorage.getItem('preferredTheme');
+//     if (storedTheme) {
+//       setTheme(storedTheme);
+//     } else if (window.innerWidth < 768) {
+//       // Set default to "light" on mobile devices
+//       setTheme("light");
+//     }
+//   }, []);
+
+//   // Handle theme toggle and update localStorage
+//   const toggleTheme = () => {
+//     const newTheme = theme === "dark" ? "light" : "dark";
+//     setTheme(newTheme);
+//     localStorage.setItem('preferredTheme', newTheme);
+//   };
+
+    return (
+
         <nav class="bg-purple-100 border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
             {/* <img src="https://BIF.com/docs/images/logo.svg" class="h-8 mr-3" alt="BIF Logo" /> */}
             <span class="text-gray-900 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BIF</span>
+            {/* {mounted && theme && data.darkMode && ( */}
+               {/* <Button onClick={toggleTheme}>
+               <Image
+                 className="h-6"
+                 src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                 alt={theme === "dark" ? "Dark Mode" : "Light Mode"}
+               ></Image>
+             </Button> */}
+            {/* )} */}
         </a>
         
         <div class="flex items-center md:order-2">
