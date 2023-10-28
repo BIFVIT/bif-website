@@ -1,14 +1,14 @@
 import Image from 'next/image'
-import Navbar from '@/components/globals/Navbar'
+import Navbar from '../components/globals/Navbar'
 
 // Page Sections Imports
-import HeroSection from '@/components/landing/HeroSection'
-import StatisticsSection from '@/components/landing/StatisticsSection'
-import About1 from '@/components/landing/AboutSection1'
-import About2 from '@/components/landing/AboutSection2'
-import Reviews from '@/components/landing/Reviews'
-import ContactSection from '@/components/landing/ContactSection'
-import Footer from '@/components/globals/Footer'
+import HeroSection from '../components/landingsections/HeroSection'
+import StatisticsSection from '../components/landingsections/StatisticsSection'
+import About1 from '../components/landingsections/AboutSection1'
+import About2 from '../components/landingsections/AboutSection2'
+import Reviews from '../components/landingsections/Reviews'
+import ContactSection from '../components/landingsections/ContactSection'
+import Footer from '../components/globals/Footer'
 
 export default function Home() {
   return (

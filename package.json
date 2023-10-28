@@ -9,13 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "next": "13.5.6",
     "next-themes": "^0.2.1",
     "react": "^18",
+    "react-countup": "^6.4.2",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "react-scroll-trigger": "^0.6.14"
   },
   "devDependencies": {
+    "@types/node": "20.8.9",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",

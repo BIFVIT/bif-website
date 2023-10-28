@@ -15,5 +15,18 @@ module.exports = {
       },
     },
   },
+  colors: {
+    'text': '#0c070d',
+    'background': '#f3e5f5',
+    'primary': '#97569f',
+    'secondary': '#e1cde4',
+    'accent': '#8a5095',
+    'darktext': '#f7f2f8',
+    'darkbackground': '#180a1a',
+    'darkprimary': '#a160a9',
+    'darksecondary': '#2f1b32',
+    'darkaccent': '#a36aaf',
+   },
+      
   plugins: [],
 }
