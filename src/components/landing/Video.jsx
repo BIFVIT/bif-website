@@ -1,5 +1,6 @@
 "use client"
 import React, {useEffect} from 'react'
+import "./video.module.css"
 
 const HeroVideo = () => {
     const isMuted = true;

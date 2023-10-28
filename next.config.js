@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["images.pexels.com", "raw.githubusercontent.com", "pbs.twimg.com"],
+        domains: ["images.pexels.com", "raw.githubusercontent.com", "pbs.twimg.com",  "flowbite.s3.amazonaws.com"],
         formats: ['image/avif', 'image/webp' ],
         remotePatterns:[
             {
