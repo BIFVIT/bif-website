@@ -1,136 +1,75 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "../../components/globals/Navbar";
+import ArticleList from "../../components/blog/Articles"
+
 export default function Blog() {
+  const ArticleData = [
+    {
+      "author": "Pranav Murthy",
+      "date": "Oct 25, 2023",
+      "readTime": "2 min read",
+      "title": "Bridging the Educational Gap and Spreading Hope Online",
+      "description": "In the heart of VIT Vellore, we found ourselves drawn to a club of with a mission that transcended conventional teaching...",
+      "url": "https://medium.com/becoming-i-foundation/bif-becoming-i-foundation-bridging-the-educational-gap-and-spreading-hope-online-782bd5c0dd25"
+    },
+    {
+      "author": "Dhruv Mathur",
+      "date": "Jan 2, 2023",
+      "readTime": "3 min read",
+      "title": "New year, New resolutions, New beginning.",
+      "description": "It's a myth that you can't have it all. You can have it all just maybe not all at the…",
+      "url": "https://medium.com/becoming-i-foundation/new-year-new-resolutions-new-beginning-20fd50f01ad3"
+    },
+    {
+      "author": "Dhruv Mathur",
+      "date": "Oct 10, 2022",
+      "readTime": "5 min read",
+      "title": "Say yes to positivity, say yes to well being",
+      "description": "Amidst the recent pandemic, everyone understood the value...",
+      "url": "https://medium.com/becoming-i-foundation/anything-thats-human-is-mentionable-and-anything-that-is-mentionable-can-be-more-manageable-a5dd9e8f01cd"
+    },
+    {
+      "author": "Dhruv Mathur",
+      "date": "Sep 29, 2022",
+      "readTime": "4 min read",
+      "title": "Preceding wastage counts for imminent shortage",
+      "description": "In a world of seven billion people, set to grow to nine billion by 2050...",
+      "url": "https://medium.com/becoming-i-foundation/preceding-wastage-counts-for-imminent-shortage-cccb7cd00429"
+    },
+    {
+      "author": "Satyanidhi",
+      "date": "Jul 29, 2022",
+      "readTime": "4 min read",
+      "title": "Nurture Nature for a Nurturing Future",
+      "description": "The seven billion humans inhabit the earth and use various amounts of the planet's resources...",
+      "url": "https://medium.com/becoming-i-foundation/nurture-nature-for-a-nurturing-future-2ad13f13daa6"
+    },
+    {
+      "author": "Dhruv Mathur",
+      "date": "Jun 4, 2022",
+      "readTime": "4 min read",
+      "title": "Take a stand, make a difference!",
+      "description": "When we save children, we save ourselves. The solution of adult problems…",
+      "url": "https://medium.com/becoming-i-foundation/take-a-stand-make-a-difference-de616898afd7"
+    }
+  ]
+  
+
   return (
-    <section class="bg-white dark:bg-darkbackground">
+    <section class="bg-background dark:bg-darkbackground">
       <Navbar />
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 bg-background dark:bg-darkbackground">
         <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-text dark:text-darktext">
+          <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-primary dark:text-darkprimary">
             Our Blog
           </h2>
-          <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <p class="font-light text-text sm:text-xl dark:text-darktext">
           Explore our blog for stories, insights, and updates that showcase the heart of our mission. 
           </p>
         </div>
-        <div class="grid gap-8 lg:grid-cols-2">
-          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <div class="flex justify-between items-center mb-5 text-gray-500">
-              <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                <svg
-                  class="mr-1 w-3 h-3"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
-                </svg>
-                Tutorial
-              </span>
-              <span class="text-sm">14 days ago</span>
-            </div>
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-text dark:text-darktext">
-              <a href="#">How to quickly deploy a static website</a>
-            </h2>
-            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
-              Static websites are now used to bootstrap lots of websites and are
-              becoming the basis for a variety of tools that even influence both
-              web designers and developers influence both web designers and
-              developers.
-            </p>
-            <div class="flex justify-between items-center">
-              <div class="flex items-center space-x-4">
-                <Image
-                  width={28}
-                  height={28}
-                  class="w-7 h-7 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                  alt="Jese Leos avatar"
-                />
-                <span class="font-medium dark:text-darktext">Jese Leos</span>
-              </div>
-              <a
-                href="#"
-                class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-              >
-                Read more
-                <svg
-                  class="ml-2 w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </article>
-
-          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <div class="flex justify-between items-center mb-5 text-gray-500">
-              <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                <svg
-                  class="mr-1 w-3 h-3"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                    clip-rule="evenodd"
-                  ></path>
-                  <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-                </svg>
-                Article
-              </span>
-              <span class="text-sm">14 days ago</span>
-            </div>
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-text dark:text-darktext">
-              <a href="#">Our first project with React</a>
-            </h2>
-            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
-              Static websites are now used to bootstrap lots of websites and are
-              becoming the basis for a variety of tools that even influence both
-              web designers and developers influence both web designers and
-              developers.
-            </p>
-            <div class="flex justify-between items-center">
-              <div class="flex items-center space-x-4">
-                <Image
-                  width={28}
-                  height={28}
-                  class="w-7 h-7 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                  alt="Bonnie Green avatar"
-                />
-                <span class="font-medium dark:text-darktext">Bonnie Green</span>
-              </div>
-              <a
-                href="#"
-                class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-              >
-                Read more
-                <svg
-                  class="ml-2 w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </article>
+        <div class="container">
+        <ArticleList data={ArticleData} /> 
         </div>
       </div>
     </section>

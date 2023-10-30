@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
-const Navbar = () => {
+const TamNavbar = () => {
     const [ isLangMenuOpen, setLangMenuOpen] = useState(false)
     const router = useRouter(); 
 
@@ -64,20 +64,21 @@ const Navbar = () => {
             </button>
         </div>
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-background dark:bg-gray-800 md:dark:bg-darkbackground dark:border-gray-700">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-background dark:bg-gray-800 md:dark:bg-darkbackground dark:border-gray-700">
             <li>
-                <a href="/" class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:text-primary dark:text-darktext md:p-0 md:dark:text-darkprimary" aria-current="page">Home</a>
+                <a href="/" class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:text-primary dark:text-darktext md:p-0 md:dark:text-darkprimary" aria-current="page">முகப்பு</a>
             </li>
             <li>
-                <a href="/blog" className={`${router.pathname === '/blog' ? 'block py-2 pl-3 pr-4 rounded md:bg-transparent md:text-primary dark:text-darktext md:p-0 md:dark:text-darkprimary' : 'block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'}`}>Blog</a>
+                <a href="/blog" className={`${router.pathname === '/blog' ? 'block py-2 pl-3 pr-4 rounded md:bg-transparent md:text-primary dark:text-darktext md:p-0 md:dark:text-darkprimary' : 'block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'}`}>வலைப்பதிவு</a>
             </li>
             <li>
-                <a href="/events" class="block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Events</a>
+                <a href="/events" class="block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">நிகழ்வுகள்</a>
             </li>
             <li>
-                <a href="/team" class="block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                <a href="/team" class="block py-2 pl-3 pr-4 text-text rounded md:hover:bg-transparent md:hover:text-primary md:p-0 dark:text-darktext md:dark:hover:text-darkprimary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">குழு</a>
             </li>
-            </ul>
+        </ul>
+
         </div>
         </div>
         </nav>
@@ -85,4 +86,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default TamNavbar

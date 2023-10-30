@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'content',
+  // darkMode: 'content', 
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -29,8 +29,29 @@ module.exports = {
       },
       boxShadow: {
         '3xl': '0 20px 80px -10px rgba(0, 0, 0, 0.1)',
-      }
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'twinkle': 'twinkle 1.5s linear infinite',
+
+      }, 
+      
+      keyframes: {
+        twinkle: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 }
+        }
+      },
+      // animation: {
+      //   twinkle: 'twinkle 1.5s linear infinite',
+      // },
+
     },
+    // animationspin: {
+    //   'spin-slow': 'spin 3000 linear infinite',
+    // },
+
+
   },
   
       
