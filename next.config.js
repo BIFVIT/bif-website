@@ -17,21 +17,6 @@ const nextConfig = {
             }
         ]
     },
-    // webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    //     // Add a new rule to handle .mov files with file-loader
-    //     config.module.rules.push({
-    //       test: /\.(mov)$/,
-    //       use: [
-    //         {
-    //           loader: 'file-loader',
-    //           options: {
-    //             publicPath: '/_next',
-    //             name: 'static/media/[name].[ext]', // You can customize the output path and filename
-    //           },
-    //         },
-    //       ],
-    //     });
-    // }
 }
 
 module.exports = nextConfig
