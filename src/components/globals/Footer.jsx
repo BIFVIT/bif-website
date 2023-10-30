@@ -5,7 +5,7 @@ import { BsLinkedin , BsFacebook} from "react-icons/bs"
 import { FaFacebookSquare } from "react-icons/fa"
 const Footer = () => {
   return (
-    <footer class="px-4 lg:px-36 text-text dark:text-darktext dark:text-darktext bg-background dark:bg-darkbackground body-font">
+    <footer class="px-4 lg:px-36 text-text dark:text-darktext bg-background dark:bg-darkbackground body-font">
         <div className='h-16'></div>
         {/* <hr className=''/> */}
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">

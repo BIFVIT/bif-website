@@ -8,7 +8,7 @@ const ContactSection = () => {
             <div class="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div class=" lg:w-2/3 md:w-1/2 bg-gray-500 border-2 border-primary dark:border-darkprimary border-opacity-50 dark:bg-darkbackground rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0410799826486!2d79.15335331146026!3d12.969223187293183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2ssa!4v1698340835184!5m2!1sen!2ssa" style={{filter: "grayscale(1) contrast(1) opacity(0.30)" }}></iframe>
-                <div class="bg-background dark:bg-darkbackground relative flex flex-wrap py-6 rounded shadow-md">
+                <div class="bg-secondary dark:bg-darkbackground relative flex flex-wrap py-6 rounded shadow-md">
                     <div class="lg:w-1/2 px-6 ">
                     <h2 class="title-font font-semibold text-gray-800 dark:text-darktext tracking-widest text-xs">ADDRESS</h2>
                     <p class="text-text dark:text-darktext dark:opacity-80 mt-1">VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India</p>
@@ -28,7 +28,7 @@ const ContactSection = () => {
                 <form action="#" class="space-y-8">
                      <div>
                          <label for="email" class="block mb-2 text-sm font-medium text-text dark:text-darktext">Your email</label>
-                         <input type="email" id="email" class="shadow-sm bg-secondary dark:bg-darksecondary  text-text text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700  dark:placeholder-darktext dark:placeholder-opacity-50 dark:text-darktext dark:focus:ring-primary-500 dark:focus:border-darkhighlight dark:shadow-sm-light" placeholder="name@mail.com" required/>
+                         <input type="email" id="email" class="shadow-sm bg-secondary dark:bg-darksecondary  text-text text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-darktext dark:placeholder-opacity-50 dark:text-darktext dark:focus:ring-primary-500 dark:focus:border-darkhighlight dark:shadow-sm-light" placeholder="name@mail.com" required/>
                      </div>
                      <div>
                          <label for="subject" class="block mb-2 text-sm font-medium text-text dark:text-darktext">Subject</label>
@@ -52,7 +52,7 @@ const ContactSection = () => {
                          <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 "/>
                          <label for="link-checkbox" class="ml-2 text-sm font-medium text-text dark:text-darktext">By submitting this form, you confirm that you have read and agree to our <a href="#" class="text-primary dark:text-darkprimary hover:underline">Terms & Conditions</a>.</label>
                      </div>
-                     <a href="#" class="bg-primary hover:-translate-y-1 hover:bg-accent dark:bg-darkprimary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-darktext rounded-lg dark:text-darkbackground dark:border-gray-700 dark:hover:bg-darkaccent">
+                     <a href="#" className="bg-primary hover:-translate-y-1 shadow-3xl hover:shadow-darkprimary dark:bg-darkprimary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-darktext rounded-lg dark:text-darkbackground dark:border-gray-700">
                     Send Message
                     </a> 
                  </form>

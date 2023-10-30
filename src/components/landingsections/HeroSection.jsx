@@ -18,14 +18,14 @@ const HeroSection = () => {
                     Learn More
                 </a> 
                 
-                <a href="#" className="bg-primary hover:-translate-y-1 hover:bg-accent dark:bg-darkprimary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-darktext rounded-lg dark:text-darkbackground dark:border-gray-700 dark:hover:bg-darkaccent">
+                <a href="#" className="bg-primary hover:-translate-y-1 shadow-3xl hover:shadow-darkprimary dark:bg-darkprimary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-darktext rounded-lg dark:text-darkbackground dark:border-gray-700">
                     Contact Us
                 </a> 
 
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex hover:cursor-[url(/public/cursor.png),_pointer]">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex hover:cursor-[url(https://github.com/NotSooShariff/bif-frontend/blob/main/public/cursor.png)]">
                 {/* <Image className='rounded-lg hover:scale-110 transition duration-500 cursor-pointer object-cover' width={800} height={600} src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/herosec.jpg" alt="Hero Section Image"/> */}
-                <HeroVideo/>
+                <HeroVideo className="hover:cursor-[url(https://github.com/NotSooShariff/bif-frontend/blob/main/public/cursor.png)]"/>
             </div>                
         </div>
         

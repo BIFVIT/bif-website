@@ -4,7 +4,7 @@ import Image from "next/image";
 const About2 = () => {
   return (
     <>
-      <section className="bg-background dark:bg-darkbackground px-4 lg:px-36 pt-10 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden flex justify-center items-center">
+      <section className="bg-background px-4 lg:px-36 text-gray-400 dark:bg-darkbackground body-font relative overflow-hidden flex justify-center items-center">
         <div className="container">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             
