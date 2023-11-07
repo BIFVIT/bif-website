@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import { RiTeamLine } from "react-icons/ri"
-import { PiStudentBold, PiChalkboardTeacherBold, PiChalkboardTeacher } from "react-icons/pi"
+import { PiStudentBold, PiChalkboardTeacher } from "react-icons/pi"
 import {LuSchool} from "react-icons/lu"
 import CountUp from "react-countup"
 import ScrollTrigger from 'react-scroll-trigger'
@@ -22,9 +22,9 @@ const StatisticsSection = () => {
         <section className="bg-background dark:bg-darkbackground">
             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                 <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-black opacity-75">
-                    <h2 className="text-center mb-4 text-4xl tracking-tight font-bold text-primary dark:text-darkprimary">We have inspired & helped over <span className="font-extrabold">10,000+</span> students</h2>
-                    <p className="text-center mb-4 font-light text-text dark:text-darktext dark:opacity-90">At BIF - VIT, our impact speaks volumes. We&apos;ve reached over 10,000 children through our educational initiatives, kindling a passion for learning and opening doors to brighter futures. With a dedicated team of 200+ volunteers, spanning various disciplines and backgrounds, we collaborate tirelessly to bring our vision of free education to life. Our influence extends to 50 communities, where we partner with local organizations to make education accessible to children in underserved areas.</p>
-                    <p className="text-center mb-4 font-bold text-text dark:text-darktext dark:opacity-90">Through 20+ events and campaigns, we&apos;ve not only raised awareness but also garnered the support of thousands of young minds, inviting them to join us on our journey to transform education. We&apos;ve established partnerships with 15 educational institutions and organizations, creating a network that bolsters our ability to drive change. </p>
+                    <h2 className="text-center mb-4 text-4xl tracking-tight font-bold text-primary dark:text-darkprimary">We have inspired & helped over <span className="font-extrabold">2,000+</span> students</h2>
+                    <p className="text-center mb-4 font-light text-text dark:text-darktext dark:opacity-90">At BIF - VIT, our impact speaks volumes. We&apos;ve reached over 2,000 children through our educational initiatives, kindling a passion for learning and opening doors to brighter futures. With a dedicated team of 200+ volunteers, spanning various disciplines and backgrounds, we collaborate tirelessly to bring our vision of free education to life. Our influence extends to 15+ institutions, where we partner with local organizations to make education accessible to children in underserved areas.</p>
+                    <p className="text-center mb-4 font-bold text-text dark:text-darktext dark:opacity-90">Through 10+ events and campaigns, we&apos;ve not only raised awareness but also garnered the support of thousands of young minds, inviting them to join us on our journey to transform education. We&apos;ve established partnerships with 15 educational institutions and organizations, creating a network that bolsters our ability to drive change. </p>
                 </div>
             </div>
             </section>

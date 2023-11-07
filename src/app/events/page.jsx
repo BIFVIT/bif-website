@@ -37,7 +37,7 @@ export default function Events() {
         "date": "Feb 26, 2023",
         "location": "Foodys",
         "time": "10:00 AM",
-        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/herosec.jpg",
+        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/hslcover.jpg",
         "description": "One of the most sought-after events in Riviera 22. With over 750+ registrations, it was a fun game that was played on a life-sized sn...",
         "url": "/events/past/human-snakes-and-ladders"
     },
@@ -46,7 +46,7 @@ export default function Events() {
         "date": "Feb 24, 2023",
         "location": "SJT Gallery",
         "time": "10:00 AM",
-        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/hslcover.jpg",
+        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/smilecover.jpg",
         "description": "A Day of Fun & Entertainment for Underprivileged Kids in VIT. From music & games to comedy and dance, we shared laughter and joy, cre... ",
         "url": "/events/past/smile"
     },
