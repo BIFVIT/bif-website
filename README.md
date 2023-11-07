@@ -3,6 +3,7 @@
 > ⚠️ **Note:** This project is still under development
 
 # For Developers:
+Hitesh Vaibhav.G.B
 
 ### 1. Clone this project into your system by running the following:
 
