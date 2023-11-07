@@ -24,17 +24,17 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://bifvit.org" />
         <meta property="og:title" content="Becoming I Foundation VIT" />
         <meta property="og:description" content="Where others Teach, We Educate. At BIF, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
-        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/metaimg.jpg" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://bifvit.org/" />
         <meta property="twitter:title" content="Becoming I Foundation VIT" />
         <meta property="twitter:description" content="Where others Teach, We Educate. At BIF, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/metaimg.jpg" />
       </Head>
       <body className={inter.className}>{children}</body>
 
