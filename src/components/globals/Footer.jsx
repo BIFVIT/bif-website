@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="" target="_blank" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-500 dark:text-darktext">
             <span class="ml-3 text-xl">Becoming I Foundation</span>
             </a>
-            <p class="text-sm text-gray-500 dark:text-darktext sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 BIF-VIT
+            <p class="text-sm text-gray-500 dark:text-darktext sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 BIF-VIT 
             {/* <a href="" target="_blank" href="https://github.com/BIFVIT" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Developed with 💖 by @BIFVIT</a> */}
             </p>
 
@@ -20,23 +20,23 @@ const Footer = () => {
 
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             
-            <a href="" target="_blank" class="text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.facebook.com/onestopvit" target="_blank" class="text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FaFacebookSquare/>
             </a>
 
-            <a href="" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.instagram.com/bif_vit" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FiInstagram/>
             </a>
 
-            <a href="" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://www.linkedin.com/company/becoming-i-foundation-vellore-chapter/" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <BsLinkedin/>
             </a>
 
-            <a href="" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="https://github.com/BIFVIT" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FiGithub/>
             </a>
 
-            <a href="" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
+            <a href="http://medium.com/becoming-i-foundation" target="_blank" class="ml-3 text-text text-xl dark:text-darktext hover:text-primary dark:hover:text-dark-primary">
             <FaMedium/>
             </a>
 
