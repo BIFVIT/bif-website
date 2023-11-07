@@ -1,21 +1,21 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "../../components/globals/Navbar";
-import ArticleList from "../../components/blog/Articles"
+import EventList from "../../components/events/Events"
 
-export default function Blog() {
-  const ArticleData = [
+export default function Events() {
+  const EventData = [
     {
-      "author": "Akhila M",
-      "avatar": "https://miro.medium.com/v2/resize:fill:72:72/1*OUrQTq6Oa9Nyq4LEWEgn4A.jpeg",
+      "event": "Old Katpadi School Visit",
+      "cover": "/assets/herosec.png",
       "date": "Nov 6, 2023",
-      "readTime": "3 min read",
-      "title": "Gains of Giving Back",
+      "location": "Google Meet",
+      "time": "",
       "description": "In the heart of VIT Vellore, we found ourselves drawn to a club of with a mission that transcended conventional teaching...",
       "url": "https://medium.com/becoming-i-foundation/bif-becoming-i-foundation-bridging-the-educational-gap-and-spreading-hope-online-782bd5c0dd25"
     },
     {
-      "author": "Pranav Murthy",
+      "author": "St Judes Visit",
       "avatar": "https://miro.medium.com/v2/resize:fill:72:72/0*aUP2KIHHGFhPEWx7",
       "date": "Oct 25, 2023",
       "readTime": "2 min read",
@@ -84,7 +84,7 @@ export default function Blog() {
           </p>
         </div>
         <div class="container">
-        <ArticleList data={ArticleData} /> 
+        <EventList data={EventData} /> 
         </div>
       </div>
     </section>

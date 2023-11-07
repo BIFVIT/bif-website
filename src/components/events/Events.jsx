@@ -76,7 +76,7 @@ const ArticleCard = ({ author, avatar, date, readTime, title, description, url }
   );
 };
 
-const ArticleList = ({ data }) => {
+const EventList = ({ data }) => {
   return (
     <div className="grid gap-8 lg:grid-cols-2">
       {data.map((article, index) => (
@@ -86,4 +86,4 @@ const ArticleList = ({ data }) => {
   );
 };
 
-export default ArticleList;
+export default EventList;

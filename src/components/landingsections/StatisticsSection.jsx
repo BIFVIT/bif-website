@@ -41,7 +41,7 @@ const StatisticsSection = () => {
                     +
                 </h2>
                 
-                <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext">Members</p>
+                <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext">Active Members</p>
                 </div>
             </div>
 
@@ -49,9 +49,9 @@ const StatisticsSection = () => {
                 <div className="bg-secondary dark:bg-darksecondary px-4 py-6 rounded-lg">
                 <PiStudentBold className='text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block'/>
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                {counterOn && <CountUp start={0} end={10.3} duration={2} delay={0}/>}
-                K+</h2>
-                <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext">Students</p>
+                {counterOn && <CountUp start={0} end={2000} duration={2} delay={0}/>}
+                +</h2>
+                <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext">Students Reached</p>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ const StatisticsSection = () => {
                 <div className="bg-secondary dark:bg-darksecondary px-4 py-6 rounded-lg">
                 <PiChalkboardTeacher className='text-purple-700 dark:text-blue-700 text-primary dark:text-darkprimary w-12 h-12 mb-3 inline-block'/>
                 <h2 className="title-font font-bold text-3xl text-black dark:text-darktext">
-                {counterOn && <CountUp start={0} end={350} duration={2} delay={0}/>}    
+                {counterOn && <CountUp start={0} end={500} duration={2} delay={0}/>}    
                     +
                 </h2>
                 <p className="leading-relaxed text-black opacity-75 text-text dark:text-darktext ">Sessions</p>
