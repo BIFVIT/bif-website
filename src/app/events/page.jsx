@@ -19,7 +19,7 @@ export default function Events() {
         "date": "May 17, 2023",
         "location": "Offline Session",
         "time": "",
-        "cover": "/stjudesvisit.jpg",
+        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/stjudesvisit.jpg",
         "description": "We shared an endearing day with the resilient kids facing the challenges of cancer. Our visit was filled with fun art activities, ed...",
         "url": "/events/past/st-judes-visit"
     },
@@ -28,7 +28,7 @@ export default function Events() {
         "date": "Jun 6, 2023 - Jun 7, 2023",
         "location": "CS Hall",
         "time": "9:00 AM",
-        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/herosec.jpg",
+        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/h4icover.jpg",
         "description": "One of the major tech events of Yantra in collaboration with IEEE-CS. The hackathon saw 30+ teams competing for UNICEF's SDG Goal 4... ",
         "url": "/events/past/hack4impact"
     },
@@ -46,7 +46,7 @@ export default function Events() {
         "date": "Feb 24, 2023",
         "location": "SJT Gallery",
         "time": "10:00 AM",
-        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/herosec.jpg",
+        "cover": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/hslcover.jpg",
         "description": "A Day of Fun & Entertainment for Underprivileged Kids in VIT. From music & games to comedy and dance, we shared laughter and joy, cre... ",
         "url": "/events/past/smile"
     },

@@ -57,7 +57,7 @@ const EventCard = ({ eventname, date, location, time, cover, description, url })
     //  className="flex flex-col p-6 rounded-lg bg-secondary  dark:bg-darksecondary dark:border-gray-700 hover:scale-105 transition duration-500 cursor-pointer object-cover">
     
     <div onClick={()=>redirectToUrl(`${url}`)} class="rounded-lg bg-secondary  dark:bg-darksecondary hover:scale-105 transition duration-500 cursor-pointer  max-w-sm w-full lg:max-w-full lg:flex">
-        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-lg  text-center overflow-hidden" style={{ backgroundImage: `url('${cover}'),  backgroundPosition: 'left'` }} title="Woman holding a mug">
+        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-lg  text-center overflow-hidden" style={{ backgroundImage: `url('${cover}')` }} title="Event Cover">
         </div>
         <div class="border-r border-b border-l lg:border-l-0 lg:border-t bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
