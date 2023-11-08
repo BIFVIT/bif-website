@@ -1,8 +1,5 @@
 # BIF Official Website
 
-> ⚠️ **Note:** This project is still under development
-
-
 ## Description
 
 This is a Next.js application that uses Tailwind CSS for styling. It is deployed to Vercel and has a Snyk integration for scanning for vulnerabilities. The application is static and does not currently feature a database or backend, but it has been designed in a way that makes integrating a database later easier.
@@ -29,9 +26,13 @@ To install the web application to your system, clone the repository and run it b
     npm run dev
 ```
 
-Once done sucessfully open your browser to http://localhost:3000.
+Once done successfully open your browser to http://localhost:3000.
 
 ## Contributing
 
 Contributions are welcome! Please open a pull request if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the Apache license. See the LICENSE file for more details.
 
