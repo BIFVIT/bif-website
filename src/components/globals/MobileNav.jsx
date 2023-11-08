@@ -36,7 +36,7 @@ const MobileNav = ({ isOpen, onClose }) => {
       </a>
       <button
         onClick={onClose}
-        className="text-5xl mt-10 bg-blue-500 text-white px-4 py-2 rounded cursor-pointer"
+        className="text-5xl mt-10 bg-blue-500 text-accent dark:text-darkaccent px-4 py-2 rounded cursor-pointer"
       >
         <AiOutlineCloseCircle />
       </button>
