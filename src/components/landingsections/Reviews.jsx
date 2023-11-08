@@ -58,7 +58,7 @@ const Reviews = () => {
         },
         {
             // 7
-            "name": "Neha Tiggy",
+            "name": "Neha Tigy",
             "title": "Volunteer",
             "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/neha.png",
             "review": ` Everyone here is so passionate about what they do and they contribute their best to make all

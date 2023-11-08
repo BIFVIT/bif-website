@@ -5,11 +5,12 @@ import { useRouter } from 'next/navigation';
 
 // Social Media Icons
 import { BsGlobe2 , BsYoutube, BsSnapchat, BsLinkedin, BsGithub, BsFacebook } from "react-icons/bs"
-import { AiFillInstagram } from "react-icons/ai"
+import { AiFillInstagram, AiFillMediumCircle } from "react-icons/ai"
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { SiTryhackme } from "react-icons/si"
 
-const TeamCard = ({ name, image, position, description, website, linkedin, instagram, twitter, github, facebook, snapchat, youtube, tryhackme}) => {
+
+const TeamCard = ({ name, image, position, description, website, linkedin, instagram, twitter, github, facebook, snapchat, youtube, tryhackme, medium}) => {
     const router = useRouter();
 
     const redirectToUrl = (url) => {
@@ -39,6 +40,7 @@ const TeamCard = ({ name, image, position, description, website, linkedin, insta
                       {facebook && <li onClick={()=>redirectToUrl(facebook)}><BsFacebook className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                       {snapchat && <li onClick={()=>redirectToUrl(snapchat)}><BsSnapchat className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                       {youtube && <li onClick={()=>redirectToUrl(youtube)}><BsYoutube className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
+                      {medium && <li onClick={()=>redirectToUrl(medium)}><AiFillMediumCircle className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                       {tryhackme && <li onClick={()=>redirectToUrl(tryhackme)}><SiTryhackme className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                         
                   </ul>

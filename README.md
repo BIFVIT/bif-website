@@ -1,34 +1,37 @@
-# BIF Frontend
+# BIF Official Website
 
 > ⚠️ **Note:** This project is still under development
 
-# For Developers:
-Hitesh Vaibhav.G.B
 
-### 1. Clone this project into your system by running the following:
+## Description
+
+This is a Next.js application that uses Tailwind CSS for styling. It is deployed to Vercel and has a Snyk integration for scanning for vulnerabilities. The application is static and does not currently feature a database or backend, but it has been designed in a way that makes integrating a database later easier.
+
+All text and data is included in a JSON format separately inside of each component (outside the return function) so that very little modification needs to be done while integrating a backend. Even changing the color theme is made easier because we used [Realtime Colors](https://www.realtimecolors.com/) to pick themes and then exported it as Tailwind export (both light and dark theme) and included it in the Tailwind config.
+
+For developers, we have included a Makefile that makes using repetitive commands like `git add .`, `git commit -m "msg"`, and `git push origin main` easier. This is done through a BAT file, however, and only works on Windows development environments.
+
+## Makefile Commands
+
+The following commands are available in the Makefile:
+
+* `make r`: Opens localhost 3000 and also runs `npm run dev`
+* `make gt`: Pushes to GitHub without having to use multiple commands (requires commit message)
+
+## Usage
+
+To install the web application to your system, clone the repository and run it by using the following commands:
 
 ```
     git clone https://github.com/NotSooShariff/bif-frontend.git
     cd bif-frontend
     npm install
-```
-
-Ensure that you have git & node installed on your systems (and added them to the environment PATH variables on your PC) if the above steps don't work.
-
-- [Git Download](https://git-scm.com/downloads)
-- [Node Download](https://nodejs.org/en)
-
-### 2. Run the project
-   
-```
     npm run dev
 ```
 
-Then headover to [http://localhost:3000](http://localhost:3000) to view it live.
+Once done sucessfully open your browser to http://localhost:3000.
 
-### 3. Quick Commands (Optional)
+## Contributing
 
-If you have tools to run Makefile installed ([Download Here](https://gnuwin32.sourceforge.net/packages/make.htm) if not installed), I have added a Makefile to make it easier to use certain repetitive commands by adding a Makefile in the root of the project.
-
-For example: You can use `make gt` to push to the repo instead of having to type `git add .` `git commit -m "Commit message"` and `git push origin main` everytime you want to push something.
+Contributions are welcome! Please open a pull request if you have any suggestions or improvements.
 
