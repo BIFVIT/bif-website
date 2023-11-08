@@ -89,7 +89,7 @@ export default function Events() {
     {
       "name": "Anjana Rose",
       "position": "Head of Outreach Department",
-      "image": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/anjana.png",
+      "image": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/anjana.jpg",
       "description": "Enriching Lives, Organizing Educational Journeys for kids",
       "website": "",
       "linkedin": "https://www.linkedin.com/in/anjana-rose-ba2515256/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

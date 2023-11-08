@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Head from 'next/head'
 import ThemeSwitcher from "../components/globals/ThemeSwitch"
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* The Button Component for Dark Mode toggle */}
       {/* <ThemeSwitcher/> */}
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}/>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+        `}
+      </Script>
       <Head>
         <link rel="icon" href="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/favicon.ico" />
 
