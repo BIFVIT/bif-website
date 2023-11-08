@@ -48,7 +48,7 @@ const ContactSection = () => {
   
 
   return (
-    <section className="bg-background px-4 lg:px-36 text-gray-400 dark:bg-darkbackground body-font relative">
+    <section id='contact' className="bg-background px-4 lg:px-36 text-gray-400 dark:bg-darkbackground body-font relative">
       <h2 className="mb-4 text-4xl text-center tracking-tight font-extrabold text-primary dark:text-darkprimary">Contact Us</h2>
       <p className="mb-8 lg:mb-16 font-light text-center text-text dark:text-darktext dark:opacity-90 sm:text-xl">
         Seeking information about our collaboration opportunities? Looking to Volunteer with Us? Talk to us.

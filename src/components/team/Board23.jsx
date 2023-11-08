@@ -29,7 +29,7 @@ const TeamCard = ({ name, image, position, description, website, linkedin, insta
                       <a href="#">{name}</a>
                   </h3>
                   <span class="text-accent dark:text-darkaccent">{position}</span>
-                  <p class="mt-3 mb-4 font-light text-text  dark:text-darktext text-opacity-80">Jese drives the technical strategy of the flowbite platform and brand.</p>
+                  <p class="mt-3 mb-4 font-light text-text  dark:text-darktext text-opacity-80">{description}</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       {website && <li onClick={()=>redirectToUrl(website)}><BsGlobe2 className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}
                       {linkedin && <li onClick={()=>redirectToUrl(linkedin)}><BsLinkedin className='text-text text-lg dark:text-darktext hover:text-accent dark:hover:text-darkaccent'/></li>}

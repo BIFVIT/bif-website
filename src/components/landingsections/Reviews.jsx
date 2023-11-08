@@ -13,79 +13,104 @@ const Reviews = () => {
         {
             // 2
             "name": "Catherine Tomy",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/catherine.png",
+            "review": `It has been wonderful being part of the BIF Family. Be it taking
+            sessions for the kids or being part of the events that are
+            conducted...`
         },
         {
-            // 3
-            "name": "Sarvesh",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            // 5
+            "name": "Aleena Rebecca",
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/aleena.png",
+            "review": "I’ve had a wonderful time here by learning and developing my skills..."
         },
         {
             // 4
             "name": "Yashita Mittal",
             "title": "Security Researcher @Planetcast",
             "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/yashi.png",
-            "review": ""
-        },
-        {
-            // 5
-            "name": "Aleena Rebecca",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "review": `One of the most rewarding aspects of being a member of
+            Becoming I Foundation is witnessing the positive impact
+            our work has on the children we serve.`
         },
         {
             // 6
             "name": "Abhirami",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/abhirami.png",
+            "review": `
+            I absolutely loved teaching and I
+            also learned a lot during my time here. I was also able to
+            make a lot of amazing friends here and am very grateful
+            for all the experiences I’ve had here.`
+        },
+        {
+            // 3
+            "name": "Tejas Sharma",
+            "title": "Intern @ Rockwell Automation",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/tejas.png",
+            "review": `
+            I always desired to be a part of community service
+            and for sure BIF has stood up to my expectations and
+            beliefs. My journey has been really a remarkable one...`
         },
         {
             // 7
             "name": "Neha Tiggy",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/neha.png",
+            "review": ` Everyone here is so passionate about what they do and they contribute their best to make all
+            the events successful and contribute positively to society. The people here are so helpful as well!`
         },
         {
             // 8
             "name": "Abhinav Kalluri",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/abhinav.png",
+            "review":  `
+            I have enjoyed and learned a lot in the last year with
+            the BIF. I completely enjoyed the interactions and learned a
+            lot from my fellow club members. `
         },
         {
             // 9
             "name": "Jahnavi",
-            "title": "",
-            "profilepic": "",
-            "review": ""
+            "title": "Volunteer",
+            "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/jahnavi.png",
+            "review": `Working with BIF has truly made me a better
+            person and I realize the privilege that I have. I cannot stress
+            enough on how much of a positive impact BIF has
+            had on me...`
         },
         {
             // 10
             "name": "Heet Mehta",
-            "title": "",
+            "title": "Finance Head @BIF",
             "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/heet.png",
-            "review": ""
+            "review": `BIF has not only provided me with an avenue to give
+            back to society, but it has also taught me valuable life
+            skills`
         },
         {
             // 11
             "name": "Toyesh Gupta",
-            "title": "",
+            "title": "Data Analyst @Coca-Cola Co.",
             "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/toyesh.png",
-            "review": ""
+            "review": `BIF inspired me to work
+            toward society. It taught me that we have a job of
+            making a difference in society as well other
+            than all else...`
         },
         {
             // 12
             "name": "Pranav Raj",
-            "title": "",
+            "title": "AI/ML Developer @Hinduja Tech",
             "profilepic": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/pranav.png",
-            "review": ""
+            "review": `This kind of work not only enlightens
+            and empowers the children, but also motivates us to
+            do more and appreciate the opportunities we have... `
         },
         {
             // 13
@@ -136,7 +161,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -149,7 +174,6 @@ const Reviews = () => {
                                     </div>
                                     <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[0].review }</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
 
@@ -159,7 +183,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1  transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -170,11 +194,9 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[1].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[1].review } Diam quis enim lobortis scelerisque
-                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
-                                        aliquam malesuada bibendum.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[1].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
 
@@ -183,7 +205,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1 transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -194,9 +216,9 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[2].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[2].review }Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, placeat.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[2].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
 
@@ -205,7 +227,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1 transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -216,11 +238,8 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[3].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">Diam quis enim lobortis scelerisque
-                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
-                                        aliquam malesuada bibendum.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{testimonials[3].review}</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
                 </ul>
@@ -231,7 +250,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -242,11 +261,8 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[4].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[4].review }Enim neque volutpat ac tincidunt vitae
-                                        semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam
-                                        pellentesque nec. Turpis cursus in hac habitasse platea dictumst.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[4].review }</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
 
@@ -255,7 +271,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -266,18 +282,15 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[5].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[5].review }Diam quis enim lobortis scelerisque
-                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
-                                        aliquam malesuada bibendum.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[5].review }.</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
                     <li class="text-sm leading-6">
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -288,18 +301,15 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[6].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[6].review }Enim neque volutpat ac tincidunt vitae
-                                        semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam
-                                        pellentesque nec. Turpis cursus in hac habitasse platea dictumst.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[6].review }</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
                     <li class="text-sm leading-6">
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -310,11 +320,8 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[7].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[7].review }Diam quis enim lobortis scelerisque
-                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
-                                        aliquam malesuada bibendum.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[7].review }</p>
                                 </div>
-                            </a>
                         </div>
                     </li>
                 </ul>
@@ -325,7 +332,7 @@ const Reviews = () => {
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -336,18 +343,16 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[10].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[10].review }Tortor dignissim convallis aenean et
-                                        tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam
-                                        eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[10].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
                     <li class="text-sm leading-6">
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -358,17 +363,16 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[11].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[11].review }Quam pellentesque nec nam aliquam sem
-                                        et tortor consequat id. Enim sit amet venenatis urna cursus.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[11].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
                     <li class="text-sm leading-6">
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -379,18 +383,16 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[8].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[8].review }Tortor dignissim convallis aenean et
-                                        tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam
-                                        eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[8].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
                     <li class="text-sm leading-6">
                         <div class="relative group">
                             <div
                                 class="absolute rounded-lg opacity-25 -inset-1    transition blur duration-400 group-hover:opacity-100 group-hover:duration-200">
-                            </div><a href="" target="_blank" class="cursor-pointer">
+                            </div>
                                 <div
                                     class="relative p-6 space-y-6 leading-none hover:scale-110 transition duration-500 cursor-pointer object-cover rounded-lg bg-secondary dark:bg-darksecondary">
                                     <div class="flex items-center space-x-4"><Image width={48} height={48}
@@ -401,10 +403,9 @@ const Reviews = () => {
                                             <p class="text-text dark:text-darktext dark:opacity-75 text-md">{ testimonials[9].title }</p>
                                         </div>
                                     </div>
-                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[9].review }Quam pellentesque nec nam aliquam sem
-                                        et tortor consequat id. Enim sit amet venenatis urna cursus.</p>
+                                    <p class="text-text dark:text-darktext leading-normal dark:opacity-90 text-gray-300 text-md">{ testimonials[9].review }</p>
                                 </div>
-                            </a>
+                            
                         </div>
                     </li>
                 </ul>
