@@ -53,7 +53,7 @@ export default function Events() {
     },
     {
       "name": "Hrishikesh Kulkarni",
-      "position": "Vice-Secretary",
+      "position": "Co-Secretary",
       "image": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/hrishi.png",
       "description": " Forging school partnerships, building bridges for education",
       "website": "",
@@ -83,7 +83,7 @@ export default function Events() {
     },
     {
       "name": "Anjana Rose",
-      "position": "Head of School Department",
+      "position": "Head of Outreach Department",
       "image": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/anjana.png",
       "description": "Enriching Lives, Organizing Educational Journeys for kids",
       "website": "",
@@ -143,7 +143,7 @@ export default function Events() {
     },
     {
       "name": "Toyesh Gupta",
-      "position": "City Head",
+      "position": "Events Head",
       "image": "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/toyesh.png",
       "description": "Crafting Memorable Events and Weaving Experiences",
        "website": "",
