@@ -17,7 +17,7 @@ const EventCard = ({ eventname, date, location, time, cover, description, url })
     <div onClick={()=>redirectToUrl(`${url}`)} class="rounded-lg bg-secondary  dark:bg-darksecondary hover:scale-105 transition duration-500 cursor-pointer  max-w-sm w-full lg:max-w-full lg:flex">
         <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-lg  text-center overflow-hidden" style={{ backgroundImage: `url('${cover}')` }} alt="Event Cover">
         </div>
-        <div class="border-r border-b border-l lg:border-l-0 lg:border-t bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="border-r border-b border-l lg:border-l-0 lg:border-t border-background dark:border-darkbackground bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
             <div className="flex justify-between items-center mb-5 text-gray-500">
                 <span className="bg-highlight text-primary dark:bg-darkhighlight dark:text-darkprimary text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded">
