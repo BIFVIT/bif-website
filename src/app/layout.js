@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
       {/* The Button Component for Dark Mode toggle */}
       {/* <ThemeSwitcher/> */}
       {/* <!-- Google tag (gtag.js) --> */}
-      <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}/>
-      <Script id="google-analytics">
+      <Script strategy="lazyOnload" async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}/>
+      <Script strategy="lazyOnload" id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
