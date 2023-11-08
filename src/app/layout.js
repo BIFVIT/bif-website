@@ -3,7 +3,8 @@ import './globals.css'
 import Head from 'next/head'
 import ThemeSwitcher from "../components/globals/ThemeSwitch"
 import Script from 'next/script'
-
+import { Analytics } from '@vercel/analytics/react';
+ 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* The Button Component for Dark Mode toggle */}
       {/* <ThemeSwitcher/> */}
-      
+
       {/* <!-- Google tag (gtag.js) --> */}
       <Script strategy="lazyOnload" async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}/>
       <Script strategy="lazyOnload" id="google-analytics">
@@ -49,7 +50,10 @@ export default function RootLayout({ children }) {
         <meta property="twitter:description" content="Where others Teach, We Educate. At BIF, We empower minds and shape futures. Join us in creating a brighter tomorrow through quality education!" />
         <meta property="twitter:image" content="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/metaimg.jpg" />
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      <Analytics/>
+      </body>
 
     </html>
   )
