@@ -14,9 +14,8 @@
 <a href="https://github.com/BIFVIT/bif-website/releases/"><img src="https://img.shields.io/github/tag/BIFVIT/bif-website?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
 <a href="#license"><img src="https://img.shields.io/badge/License-Apache-blue" alt="License"></a>
 <a href="https://github.com/BIFVIT/bif-website/issues"><img src="https://img.shields.io/github/issues/BIFVIT/bif-website" alt="issues - bif-website"></a>
-<!-- [![Known Vulnerabilities]()]( "Snyk vulnerabilities") -->
-<img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json">
-<img src="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json">
+<a href="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json"><img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json"></a>
+
 
 </p>
 
