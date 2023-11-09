@@ -46,15 +46,15 @@ For developers, we have included a Makefile that makes using repetitive commands
 
 ## 🚀 Features 🚀
 
--[] Dark Mode Support: Enhance accessibility with a dark mode feature, catering to users who find colors challenging and for improved contrast. Prioritizing inclusivity and usability.
--[] Accessibility Web Features: Incorporating accessibility web features to ensure an inclusive and user-friendly experience for individuals with diverse needs.
--[] **Multiple Language Support:** Facilitate communication with various schools by providing support for multiple languages, acknowledging the diverse linguistic landscape in our NGO's scope.
--[] **Tailwind Custom Colors:** Enable easy color theming with Tailwind custom colors, allowing seamless adaptation to changes in club colors over time.
--[] **Admin Dashboard:** Intuitive admin dashboard tailored for individuals in management who may not be tech-savvy, ensuring efficient oversight and control.
--[] **Visitor Analytics:** Empower decision-making with detailed visitor analytics, offering insights into the demographics and preferences of the target audience.
--[] **Bot Integrations:** Streamline management tasks with bot integrations for vulnerability scanning, page performance monitoring, and package updates, enhancing overall website maintenance.
--[] **Mobile-First Responsive Design:** Prioritize mobile users with a mobile-first responsive design, aligning with data that highlights the predominant use of mobile devices among our audience.
--[] **Calendar Scheduling Integrations:** Simplify event registrations through calendar scheduling integrations, providing a convenient and efficient way for users to participate in upcoming events.
+- [] Dark Mode Support: Enhance accessibility with a dark mode feature, catering to users who find colors challenging and for improved contrast. Prioritizing inclusivity and usability.
+- [] Accessibility Web Features: Incorporating accessibility web features to ensure an inclusive and user-friendly experience for individuals with diverse needs.
+- [] **Multiple Language Support:** Facilitate communication with various schools by providing support for multiple languages, acknowledging the diverse linguistic landscape in our NGO's scope.
+- [] **Tailwind Custom Colors:** Enable easy color theming with Tailwind custom colors, allowing seamless adaptation to changes in club colors over time.
+- [] **Admin Dashboard:** Intuitive admin dashboard tailored for individuals in management who may not be tech-savvy, ensuring efficient oversight and control.
+- [] **Visitor Analytics:** Empower decision-making with detailed visitor analytics, offering insights into the demographics and preferences of the target audience.
+- [] **Bot Integrations:** Streamline management tasks with bot integrations for vulnerability scanning, page performance monitoring, and package updates, enhancing overall website maintenance.
+- [] **Mobile-First Responsive Design:** Prioritize mobile users with a mobile-first responsive design, aligning with data that highlights the predominant use of mobile devices among our audience.
+- [] **Calendar Scheduling Integrations:** Simplify event registrations through calendar scheduling integrations, providing a convenient and efficient way for users to participate in upcoming events.
 
 ## ⚙️ Makefile Commands ⚙️
 
