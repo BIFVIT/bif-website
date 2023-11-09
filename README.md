@@ -8,8 +8,8 @@
 
 ---
 <p align="center">
-<a href="https://github.com/BIFVIT/bif-website/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor"/></a>
-<a href="https://bifvit.org"><img src="https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square&logo=appveyor"/></a>
+<a href="https://github.com/BIFVIT/bif-website/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square"/></a>
+<a href="https://bifvit.org"><img src="https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square"/></a>
 
 </p>
 <p align="center">
