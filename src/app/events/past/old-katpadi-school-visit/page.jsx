@@ -12,10 +12,10 @@ const eventData = {
   viewtype: "Event Summary",
   keyinfo: [
     {
-      time: "6-7 PM",
+      time: "10-12 AM",
       location: "Off-Campus",
-      date: "12 Dec 2022",
-      coordinator: "Anooshree"
+      date: "8 Nov 2023",
+      coordinator: "Sukanya"
     }
   ],
   description: "We meticulously planned and executed offline sessions with a dedicated focus on delivering knowledge-based, interactive experiences tailored for underprivileged children attending Old Katpadi School and Dharapadaveedu South School. The primary goal of the event was to immerse these young learners in enjoyable and educational activities, aiming to ignite a passion for learning while nurturing a strong sense of community support. Our efforts were concentrated on creating a positive and engaging environment, fostering not only academic growth but also a sense of belonging and encouragement among the children involved.",
@@ -83,20 +83,6 @@ export default function Event() {
                     href="#"
                     onClick={() => handleChevronClick("left")}
                     >
-                    {/* <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="w-5 h-5 text-text bi bi-chevron-left dark:text-darktext"
-                      viewBox="0 0 16 16"
-                      id="chevronleft"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                      ></path>
-                    </svg> */}
                     <BiSolidChevronsLeft/>
                     </a>
                     <Image
