@@ -36,3 +36,7 @@ Contributions are welcome! Please open a pull request if you have any suggestion
 
 This project is licensed under the Apache license. See the LICENSE file for more details.
 
+<p align="center">
+	Made with :heart: by <a href="https://bifvit.org">BIF VIT</a>
+</p>
+
