@@ -4,25 +4,25 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/BIFVIT/bif-website/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square"/></a>
-<a href="https://bifvit.org"><img src="https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square"/></a>
-<a href="https://github.com/BIFVIT/bif-website/releases/"><img src="https://img.shields.io/github/tag/BIFVIT/bif-website?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
-<a href="#license"><img src="https://img.shields.io/badge/License-Apache-blue" alt="License"></a>
-<a href="https://github.com/BIFVIT/bif-website/issues"><img src="https://img.shields.io/github/issues/BIFVIT/bif-website" alt="issues - bif-website"></a>
-<a href="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json"><img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json"></a>
+	<a href="https://github.com/BIFVIT/bif-website/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square"/></a>
+	<a href="https://bifvit.org"><img src="https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square"/></a>
+	<a href="https://github.com/BIFVIT/bif-website/releases/"><img src="https://img.shields.io/github/tag/BIFVIT/bif-website?include_prereleases=&sort=semver&color=blue" alt="GitHub"></a>
+	<a href="#license"><img src="https://img.shields.io/badge/License-Apache-blue" alt="License"></a>
+	<a href="https://github.com/BIFVIT/bif-website/issues"><img src="https://img.shields.io/github/issues/BIFVIT/bif-website" alt="issues - bif-website"></a>
+	<a href="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json"><img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json"></a>
 
 
 </p>
-<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
-<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
-<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/google_anaytics-%23000000.svg?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Google Analytics"/>
-<img src="https://img.shields.io/badge/vercel_analytics-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Analytics"/>
-<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Version Control"/>
 
 <p align="center">
+	<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
+	<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+	<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
+	<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+	<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+	<img src="https://img.shields.io/badge/google_anaytics-%23ED8B00.svg?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Google Analytics"/>
+	<img src="https://img.shields.io/badge/vercel_analytics-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Analytics"/>
+	<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Version Control"/>
 	
 </p>
 <a href="https://bifvit.org">
