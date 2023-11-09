@@ -1,5 +1,5 @@
 <p align="center">
-	<h2 align="center"> <a href="https://bifvit.org"> Official Website Codebase </a> </h2>
+	<h2 align="center"> Official Website Codebase  </h2>
 	<h4 align="center"> This website serves as a platform to showcase the impactful initiatives undertaken by our NGO and provide information about our events, blogs, and our latest activities.
 
 
