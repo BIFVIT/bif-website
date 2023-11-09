@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Navbar from "../../../../components/globals/Navbar";
 import { BsPersonCircle, BsCalendar2DateFill } from "react-icons/bs";
@@ -13,33 +13,28 @@ import TextWithReadMore from "../../../../utils/TextWithReadMore";
 
 const eventData = {
   coverImg:
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/stjudesvisit.jpg",
-  eventtitle: "Offline Session in Old Katpadi School",
-  viewtype: "Event Summary",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/smilecover.png",
+  eventtitle: "Hack4Impact (ft. IEEE-CS)",
+  viewtype: "Yantra Event",
   keyinfo: [
     {
-      time: "10-12 AM",
-      location: "Off-Campus",
-      date: "8 Nov 2023",
-      coordinator: "Sukanya",
+      time: "48 H",
+      location: "CS Hall",
+      date: "6-7 Jun 23",
+      coordinator: "Toyesh",
     },
   ],
   description:
-    "We meticulously planned and executed offline sessions with a dedicated focus on delivering knowledge-based, interactive experiences tailored for underprivileged children attending Old Katpadi School and Dharapadaveedu South School. The primary goal of the event was to immerse these young learners in enjoyable and educational activities, aiming to ignite a passion for learning while nurturing a strong sense of community support. Our efforts were concentrated on creating a positive and engaging environment, fostering not only academic growth but also a sense of belonging and encouragement among the children involved.",
+  "H4I stood out as a significant collaborative tech event, conducted in partnership with IEEE-CS. This hackathon attracted participation from over 30 teams, all vying to address UNICEF's SDG Goal No. 4—quality education. The challenge presented to the teams was to conceive and present innovative tools aimed at enhancing and broadening the quality and accessibility of education. Beyond the competition, the event featured seasoned guest speakers who shared insights into emerging tools and methodologies in the realm of quality education. The occasion served as a dynamic platform, bringing together diverse perspectives and expertise to contribute to the advancement of educational solutions.",
   childImgs: [
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/2.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/3.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/4.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/5.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/6.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/8.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/h4icover.jpg",
+    // "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/2.jpg",
   ],
 };
 
 export default function Event() {
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
+  const [hasMultipleImages, setMultipleImages] = useState(true);
 
   const handleChevronClick = (direction) => {
     if (direction === "right") {
@@ -75,6 +70,17 @@ export default function Event() {
     e.preventDefault();
   };
 
+  useEffect(()=>{
+    if (
+      eventData.childImgs &&
+      Array.isArray(eventData.childImgs) &&
+      eventData.childImgs.length <= 1
+    ) {
+      setMultipleImages(false);
+    }
+  
+  },[])  
+
   return (
     <div>
       <Navbar />
@@ -89,7 +95,7 @@ export default function Event() {
                   onTouchStart={handleTouchStart}
                   onTouchEnd={handleTouchEnd}
                 >
-                  <a
+                  {hasMultipleImages&&<a
                     className="absolute left-0 transform lg:ml-2 top-1/2 translate-1/2"
                     href="#"
                     onClick={() => handleChevronClick("left")}
@@ -97,7 +103,7 @@ export default function Event() {
                     <div className="bg-accent p-1 rounded-3xl">
                       <BiSolidChevronsLeft className="text-2xl text-background dark:text-darkbackground" />
                     </div>
-                  </a>
+                  </a>}
                   <Image
                     width={720}
                     height={720}
@@ -107,6 +113,7 @@ export default function Event() {
                     id="coverimg"
                     onDragStart={handleDragStart}
                   />
+                  {hasMultipleImages&&
                   <a
                     className="absolute right-0 transform lg:mr-2 top-1/2 translate-1/2"
                     href="#"
@@ -116,21 +123,25 @@ export default function Event() {
                       <BiSolidChevronsRight className="text-2xl text-background dark:text-darkbackground" />
                     </div>
                   </a>
+                  }
                 </div>
-                <div className="flex-wrap hidden -mx-2 md:flex">
-                  {eventData.childImgs.map((imgSrc, index) => (
-                    <div key={index} className="w-1/2 p-2 sm:w-1/4">
-                      <Image
-                        width={240}
-                        height={240}
-                        className="object-contain w-full lg:h-28"
-                        src={imgSrc}
-                        alt=""
-                        onClick={() => handleChildImgClick(index)}
-                      />
-                    </div>
-                  ))}
-                </div>
+                {hasMultipleImages&&
+                <div className={`flex-wrap hidden -mx-2 md:flex`}>
+                  
+                {eventData.childImgs.map((imgSrc, index) => (
+                  <div key={index} className="w-1/2 p-2 sm:w-1/4">
+                    <Image
+                      width={240}
+                      height={240}
+                      className="object-contain w-full lg:h-28"
+                      src={imgSrc}
+                      alt=""
+                      onClick={() => handleChildImgClick(index)}
+                    />
+                  </div>
+                ))}
+              </div>
+              }
               </div>
             </div>
             <div class="w-full px-4 md:w-1/2">

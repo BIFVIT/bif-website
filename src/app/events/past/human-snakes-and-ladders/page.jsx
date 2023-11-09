@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Navbar from "../../../../components/globals/Navbar";
 import { BsPersonCircle, BsCalendar2DateFill } from "react-icons/bs";
@@ -13,33 +13,28 @@ import TextWithReadMore from "../../../../utils/TextWithReadMore";
 
 const eventData = {
   coverImg:
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/stjudesvisit.jpg",
-  eventtitle: "Offline Session in Old Katpadi School",
-  viewtype: "Event Summary",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/smilecover.png",
+  eventtitle: "Human Snakes & Ladders",
+  viewtype: "Riviera Event",
   keyinfo: [
     {
-      time: "10-12 AM",
-      location: "Off-Campus",
-      date: "8 Nov 2023",
-      coordinator: "Sukanya",
+      time: "9AM-5PM",
+      location: "Foodys",
+      date: "26 Feb 23",
+      coordinator: "Tejas",
     },
   ],
   description:
-    "We meticulously planned and executed offline sessions with a dedicated focus on delivering knowledge-based, interactive experiences tailored for underprivileged children attending Old Katpadi School and Dharapadaveedu South School. The primary goal of the event was to immerse these young learners in enjoyable and educational activities, aiming to ignite a passion for learning while nurturing a strong sense of community support. Our efforts were concentrated on creating a positive and engaging environment, fostering not only academic growth but also a sense of belonging and encouragement among the children involved.",
+  "BIF brought Human Snakes and Ladders, unique and one of the most sought after event in the flagship fest of VIT, Riviera 22. With over 750+ registerstions, the event was a fun game that was played on a life sized Snakes and Ladders gameboard. Participants would face challenging and brain wrecking General questions if they landed on same spot as another participant or snake. It was one of the most successful events of BIF until now.",
   childImgs: [
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/2.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/3.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/4.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/5.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/6.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/8.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/hslcover.jpg",
+    // "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/2.jpg",
   ],
 };
 
 export default function Event() {
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
+  const [hasMultipleImages, setMultipleImages] = useState(true);
 
   const handleChevronClick = (direction) => {
     if (direction === "right") {
@@ -75,6 +70,17 @@ export default function Event() {
     e.preventDefault();
   };
 
+  useEffect(()=>{
+    if (
+      eventData.childImgs &&
+      Array.isArray(eventData.childImgs) &&
+      eventData.childImgs.length <= 1
+    ) {
+      setMultipleImages(false);
+    }
+  
+  },[])  
+
   return (
     <div>
       <Navbar />
@@ -89,7 +95,7 @@ export default function Event() {
                   onTouchStart={handleTouchStart}
                   onTouchEnd={handleTouchEnd}
                 >
-                  <a
+                  {hasMultipleImages&&<a
                     className="absolute left-0 transform lg:ml-2 top-1/2 translate-1/2"
                     href="#"
                     onClick={() => handleChevronClick("left")}
@@ -97,7 +103,7 @@ export default function Event() {
                     <div className="bg-accent p-1 rounded-3xl">
                       <BiSolidChevronsLeft className="text-2xl text-background dark:text-darkbackground" />
                     </div>
-                  </a>
+                  </a>}
                   <Image
                     width={720}
                     height={720}
@@ -107,6 +113,7 @@ export default function Event() {
                     id="coverimg"
                     onDragStart={handleDragStart}
                   />
+                  {hasMultipleImages&&
                   <a
                     className="absolute right-0 transform lg:mr-2 top-1/2 translate-1/2"
                     href="#"
@@ -116,21 +123,25 @@ export default function Event() {
                       <BiSolidChevronsRight className="text-2xl text-background dark:text-darkbackground" />
                     </div>
                   </a>
+                  }
                 </div>
-                <div className="flex-wrap hidden -mx-2 md:flex">
-                  {eventData.childImgs.map((imgSrc, index) => (
-                    <div key={index} className="w-1/2 p-2 sm:w-1/4">
-                      <Image
-                        width={240}
-                        height={240}
-                        className="object-contain w-full lg:h-28"
-                        src={imgSrc}
-                        alt=""
-                        onClick={() => handleChildImgClick(index)}
-                      />
-                    </div>
-                  ))}
-                </div>
+                {hasMultipleImages&&
+                <div className={`flex-wrap hidden -mx-2 md:flex`}>
+                  
+                {eventData.childImgs.map((imgSrc, index) => (
+                  <div key={index} className="w-1/2 p-2 sm:w-1/4">
+                    <Image
+                      width={240}
+                      height={240}
+                      className="object-contain w-full lg:h-28"
+                      src={imgSrc}
+                      alt=""
+                      onClick={() => handleChildImgClick(index)}
+                    />
+                  </div>
+                ))}
+              </div>
+              }
               </div>
             </div>
             <div class="w-full px-4 md:w-1/2">
