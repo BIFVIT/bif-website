@@ -7,11 +7,15 @@
 </p>
 
 ---
+
 <p align="center">
 <a href="https://github.com/BIFVIT/bif-website/blob/main/README.md"><img src="https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square"/></a>
 <a href="https://bifvit.org"><img src="https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square"/></a>
-
+<a href="https://github.com/BIFVIT/bif-website/releases/"><img src="https://img.shields.io/github/tag/BIFVIT/bif-website?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
+<a href="#license"><img src="https://img.shields.io/badge/License-Apache-blue" alt="License"></a>
+<a href="https://github.com/BIFVIT/bif-website/issues"><img src="https://img.shields.io/github/issues/BIFVIT/bif-website" alt="issues - bif-website"></a>
 </p>
+
 <p align="center">
 	
 </p>
