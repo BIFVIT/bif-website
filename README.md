@@ -1,6 +1,11 @@
 <p align="center">
-	<h2 align="center"> Official Website Frontend </h2>
-	<h4 align="center"> We are an NGO that aims to provide free and quality education to the underprivileged. <h4>
+	<h2 align="center"> <a href="https://bifvit.org"> Official Website Frontend </a> </h2>
+	<h4 align="center"> This website serves as a platform to showcase the impactful initiatives undertaken by our NGO and provide information about our events, blogs, and our latest activities.
+
+
+
+
+<h4>
 </p>
 
 <p align="center">
