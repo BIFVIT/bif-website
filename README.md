@@ -15,7 +15,7 @@
 <a href="https://bifvit.org">
 	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/bifsitepromobanner.png" />
 </a>
-----
+---
 
 <p align="center" style="padding-top: 10px;">
 	<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
