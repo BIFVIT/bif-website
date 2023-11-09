@@ -7,8 +7,13 @@
 </p>
 
 ---
+<p align="center">
 [![Documentation](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://github.com/BIFVIT/bif-website/blob/main/README.md) 
 [![Live Website ](https://img.shields.io/badge/Live%20Site-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://bifvit.org)
+</p>
+<p align="center">
+	
+</p>
 
 ## Description
 
