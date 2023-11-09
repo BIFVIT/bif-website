@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav class=" bg-background border-gray-200 dark:bg-darkbackground">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
-            {/* <img src="https://BIF.com/docs/images/logo.svg" class="h-8 mr-3" alt="BIF Logo" /> */}
+            <Image width={32} height={32} src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/favicon.ico" class="h-8 mr-3" alt="BIF Logo" />
             <span class="text-text self-center text-2xl font-semibold whitespace-nowrap dark:text-darktext">BIF</span>
             
         </a>
