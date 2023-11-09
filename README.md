@@ -1,7 +1,4 @@
 <p align="center">
-<a href="https://bifvit.org">
-	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/promobannerlight.png" />
-</a>
 	<h2 align="center"> Official Website Frontend </h2>
 	<h4 align="center"> We are an NGO that aims to provide free and quality education to the underprivileged. <h4>
 </p>
@@ -22,6 +19,9 @@
 <p align="center">
 	
 </p>
+<a href="https://bifvit.org">
+	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/promobannerlight.png" />
+</a>
 
 ## Description
 
