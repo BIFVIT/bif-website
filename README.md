@@ -35,7 +35,8 @@
 	
 </p>
 
-## Description
+## 📝 Description 📝
+
 
 This is a Next.js application that uses Tailwind CSS for styling. It is deployed to Vercel and has a Snyk integration for scanning for vulnerabilities. The application is static and does not currently feature a database or backend, but it has been designed in a way that makes integrating a database later easier.
 
@@ -43,7 +44,7 @@ All text and data are included in a JSON format separately inside of each compon
 
 For developers, we have included a Makefile that makes using repetitive commands like `git add .`, `git commit -m "msg"`, and `git push origin main` easier. This is done through a BAT file, however, and only works on Windows development environments.
 
-## Features
+## 🚀 Features 🚀
 
 ### 1. Dark Mode Support
 Enhance accessibility with a dark mode feature, catering to users who find colors challenging and for improved contrast. Prioritizing inclusivity and usability.
@@ -72,14 +73,14 @@ Prioritize mobile users with a mobile-first responsive design, aligning with dat
 ### 9. Calendar Scheduling Integrations
 Simplify event registrations through calendar scheduling integrations, providing a convenient and efficient way for users to participate in upcoming events.
 
-## Makefile Commands
+## ⚙️ Makefile Commands ⚙️
 
 The following commands are available in the Makefile:
 
 * `make r`: Opens localhost 3000 and also runs `npm run dev`
 * `make gt`: Pushes to GitHub without having to use multiple commands (requires commit message)
 
-## Usage
+##  🛠️ Usage 🛠️
 
 To install the web application to your system, clone the repository and run it by using the following commands:
 
@@ -92,11 +93,11 @@ To install the web application to your system, clone the repository and run it b
 
 Once done successfully open your browser to http://localhost:3000.
 
-## Contributing
+## 🤝 Contributing 🤝
 
 Contributions are welcome! Please open a pull request if you have any suggestions or improvements.
 
-## License
+## 📜 License 📜
 
 This project is licensed under the Apache license. See the LICENSE file for more details.
 
