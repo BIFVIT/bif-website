@@ -10,9 +10,11 @@
 	<a href="#license"><img src="https://img.shields.io/badge/License-Apache-blue" alt="License"></a>
 	<a href="https://github.com/BIFVIT/bif-website/issues"><img src="https://img.shields.io/github/issues/BIFVIT/bif-website" alt="issues - bif-website"></a>
 	<a href="https://snyk.io/test/github/BIFVIT/bif-website?targetFile=package.json"><img src="https://snyk.io/test/github/BIFVIT/bif-website/badge.svg?targetFile=package.json"></a>
-
-
 </p>
+
+<a href="https://bifvit.org">
+	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/bifsitepromobanner.png" />
+</a>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
@@ -25,9 +27,6 @@
 	<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Version Control"/>
 	
 </p>
-<a href="https://bifvit.org">
-	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/bifsitepromobanner.png" />
-</a>
 
 ## Description
 
