@@ -56,7 +56,7 @@ export default function Events() {
   
 
   return (
-    <section class="h-full bg-background dark:bg-darksecondary">
+    <section class="h-full bg-background dark:bg-darkbackground">
       <Navbar />
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 bg-background dark:bg-darkbackground">
         <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">

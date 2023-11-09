@@ -8,24 +8,28 @@ import TextWithReadMore from "../../../../utils/TextWithReadMore"
 
 const eventData = {
   coverImg: "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/stjudesvisit.jpg",
-  childImgs: [
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/hslcover.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/h4icover.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/smilecover.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/herosec.jpg",
-    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/herosec.jpg",
-  ],
   eventtitle: "Offline Session in Old Katpadi School",
   viewtype: "Event Summary",
   keyinfo: [
     {
-      time: "6:00-7:00PM",
+      time: "6-7 PM",
       location: "Off-Campus",
       date: "12 Dec 2022",
       coordinator: "Anooshree"
     }
   ],
-  description: "We meticulously planned and executed offline sessions with a dedicated focus on delivering knowledge-based, interactive experiences tailored for underprivileged children attending Old Katpadi School and Dharapadaveedu South School. The primary goal of the event was to immerse these young learners in enjoyable and educational activities, aiming to ignite a passion for learning while nurturing a strong sense of community support. Our efforts were concentrated on creating a positive and engaging environment, fostering not only academic growth but also a sense of belonging and encouragement among the children involved."
+  description: "We meticulously planned and executed offline sessions with a dedicated focus on delivering knowledge-based, interactive experiences tailored for underprivileged children attending Old Katpadi School and Dharapadaveedu South School. The primary goal of the event was to immerse these young learners in enjoyable and educational activities, aiming to ignite a passion for learning while nurturing a strong sense of community support. Our efforts were concentrated on creating a positive and engaging environment, fostering not only academic growth but also a sense of belonging and encouragement among the children involved.",
+  childImgs: [
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/2.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/3.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/4.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/5.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/6.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/1.jpg",
+    "https://raw.githubusercontent.com/BIFVIT/bif-website/main/src/assets/katpadi-visit-1/8.jpg",
+
+  ],
 };
 
 export default function Event() {
@@ -79,7 +83,7 @@ export default function Event() {
                     href="#"
                     onClick={() => handleChevronClick("left")}
                     >
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
@@ -92,7 +96,8 @@ export default function Event() {
                         fill-rule="evenodd"
                         d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
                       ></path>
-                    </svg>
+                    </svg> */}
+                    <BiSolidChevronsLeft/>
                     </a>
                     <Image
                     width={720}
@@ -129,8 +134,8 @@ export default function Event() {
             {eventData.childImgs.map((imgSrc, index) => (
               <div key={index} className="w-1/2 p-2 sm:w-1/4">
                 <Image
-                  width={720}
-                  height={720}
+                  width={240}
+                  height={240}
                   className="object-contain w-full lg:h-28"
                   src={imgSrc}
                   alt=""
@@ -239,7 +244,7 @@ export default function Event() {
                   <h2 class="pt-5 mb-2 text-lg font-bold text-text dark:text-darktext">
                     Description:
                   </h2>
-                  <TextWithReadMore text={eventData.description} wordCount={40} />
+                  <TextWithReadMore text={eventData.description} wordCount={25} />
 
 
                 </div>
