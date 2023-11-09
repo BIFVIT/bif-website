@@ -20,7 +20,7 @@
 	
 </p>
 <a href="https://bifvit.org">
-	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/promobannerlight.png" />
+	<img src="https://raw.githubusercontent.com/BIFVIT/bif-website/main/public/sitepromobanner.png" />
 </a>
 
 ## Description
