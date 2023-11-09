@@ -19,7 +19,7 @@ const EventCard = ({ eventname, date, location, time, cover, description, url })
         </div>
         <div class="border-r border-b border-l lg:border-l-0 lg:border-t border-background dark:border-darkbackground bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8">
-            <div className="flex justify-between items-center mb-5 text-gray-500">
+            <div className="flex justify-between items-center mb-5 ">
                 <span className="bg-highlight text-primary dark:bg-darkhighlight dark:text-darkprimary text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded">
                 <MdLocationOn className="mr-1 w-3 h-3"/>
                 {location}

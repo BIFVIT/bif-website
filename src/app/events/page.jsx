@@ -56,7 +56,7 @@ export default function Events() {
   
 
   return (
-    <section class="h-full bg-background dark:bg-darkbackground">
+    <section class="h-full bg-background dark:bg-darksecondary">
       <Navbar />
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 bg-background dark:bg-darkbackground">
         <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
@@ -64,7 +64,7 @@ export default function Events() {
             Our Events
           </h2>
           <p class="font-light text-text sm:text-xl dark:text-darktext">
-          Explore the many initiatives & events we&apos;ve organized to do good in our community and beyond. We&apos;d love for you to check out our exciting work and get involved in something meaningful.
+            Explore the many initiatives & events we&apos;ve organized to do good in our community and beyond. We&apos;d love for you to check out our exciting work and get involved in something meaningful.
           </p>
         </div>
         <div class="container">
