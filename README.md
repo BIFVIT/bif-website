@@ -1,6 +1,11 @@
 <p align="center">
-	<h2 align="center"> Official Website Frontend </h2>
-	<h4 align="center"> We are an NGO that aims to provide free and quality education to the underprivileged. <h4>
+	<h2 align="center"> Official Website Codebase  </h2>
+	<h4 align="center"> This website serves as a platform to showcase the impactful initiatives undertaken by our NGO and provide information about our events, blogs, and our latest activities.
+
+
+
+
+<h4>
 </p>
 
 <p align="center">
@@ -30,7 +35,8 @@
 	
 </p>
 
-## Description
+## 📝 Description 📝
+
 
 This is a Next.js application that uses Tailwind CSS for styling. It is deployed to Vercel and has a Snyk integration for scanning for vulnerabilities. The application is static and does not currently feature a database or backend, but it has been designed in a way that makes integrating a database later easier.
 
@@ -38,14 +44,26 @@ All text and data are included in a JSON format separately inside of each compon
 
 For developers, we have included a Makefile that makes using repetitive commands like `git add .`, `git commit -m "msg"`, and `git push origin main` easier. This is done through a BAT file, however, and only works on Windows development environments.
 
-## Makefile Commands
+## 🚀 Features 🚀
+
+- [x] **Dark Mode Support:** Enhance accessibility with a dark mode feature, catering to users who find colors challenging and for improved contrast. Prioritizing inclusivity and usability.
+- [x] **Accessibility Web Features:** Incorporating accessibility web features to ensure an inclusive and user-friendly experience for individuals with diverse needs.
+- [ ] **Multiple Language Support:** Facilitate communication with various schools by providing support for multiple languages, acknowledging the diverse linguistic landscape in our NGO's scope.
+- [x] **Tailwind Custom Colors:** Enable easy color theming with Tailwind custom colors, allowing seamless adaptation to changes in club colors over time.
+- [ ] **Admin Dashboard:** Intuitive admin dashboard tailored for individuals in management who may not be tech-savvy, ensuring efficient oversight and control.
+- [x] **Visitor Analytics:** Empower decision-making with detailed visitor analytics, offering insights into the demographics and preferences of the target audience.
+- [x] **Bot Integrations:** Streamline management tasks with bot integrations for vulnerability scanning, page performance monitoring, and package updates, enhancing overall website maintenance.
+- [x] **Mobile-First Responsive Design:** Prioritize mobile users with a mobile-first responsive design, aligning with data that highlights the predominant use of mobile devices among our audience.
+- [x] **Calendar Scheduling Integrations:** Simplify event registrations through calendar scheduling integrations, providing a convenient and efficient way for users to participate in upcoming events.
+
+## ⚙️ Makefile Commands ⚙️
 
 The following commands are available in the Makefile:
 
 * `make r`: Opens localhost 3000 and also runs `npm run dev`
 * `make gt`: Pushes to GitHub without having to use multiple commands (requires commit message)
 
-## Usage
+##  🛠️ Usage 🛠️
 
 To install the web application to your system, clone the repository and run it by using the following commands:
 
@@ -58,11 +76,11 @@ To install the web application to your system, clone the repository and run it b
 
 Once done successfully open your browser to http://localhost:3000.
 
-## Contributing
+## 🤝 Contributing 🤝
 
 Contributions are welcome! Please open a pull request if you have any suggestions or improvements.
 
-## License
+## 📜 License 📜
 
 This project is licensed under the Apache license. See the LICENSE file for more details.
 
