@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Navbar from '../components/globals/Navbar'
 
 // Page Sections Imports
@@ -12,7 +11,7 @@ import Footer from '../components/globals/Footer'
 
 export default function Home() {
   return (
-    <>
+    <>  
       <Navbar/>
       <HeroSection/>
       <About1/>
