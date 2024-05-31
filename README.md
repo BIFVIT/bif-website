@@ -29,10 +29,9 @@
 	<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
 	<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
 	<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-	<img src="https://img.shields.io/badge/google_anaytics-%23ED8B00.svg?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Google Analytics"/>
+	<img src="https://img.shields.io/badge/google_analytics-%23ED8B00.svg?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Google Analytics"/>
 	<img src="https://img.shields.io/badge/vercel_analytics-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Analytics"/>
 	<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Version Control"/>
-	
 </p>
 
 ## 📝 Description 📝
