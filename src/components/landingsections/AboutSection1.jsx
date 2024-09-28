@@ -14,7 +14,7 @@ const About1 = () => {
                     <Image
                       width={900}
                       height={1600}
-                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt3.jpg"
+                      src="https://raw.githubusercontent.com/BIFVIT/bif-website/refs/heads/main/src/assets/abt3.jpg"
                       alt="About Section Image 1"
                       className="w-full rounded-2xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                     />
@@ -23,7 +23,7 @@ const About1 = () => {
                     <Image
                       width={900}
                       height={1600}
-                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt2.jpg"
+                      src="https://raw.githubusercontent.com/BIFVIT/bif-website/refs/heads/main/src/assets/abt2.jpg"
                       alt="About Section Image 2"
                       className="w-full rounded-2xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                     />
@@ -34,7 +34,7 @@ const About1 = () => {
                     <Image
                       width={900}
                       height={1600}
-                      src="https://raw.githubusercontent.com/NotSooShariff/bif-frontend/main/src/assets/abt1.jpg"
+                      src="https://raw.githubusercontent.com/BIFVIT/bif-website/refs/heads/main/src/assets/abt1.jpg"
                       alt="About Section Image 3"
                       className="w-full rounded-2xl hover:scale-110 transition duration-500 cursor-pointer object-cover"
                     />
